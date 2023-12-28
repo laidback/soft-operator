@@ -1,0 +1,21 @@
+# Ignore generated files for operator-sdk
+go-operator
+helm-operator
+
+# Ignore generated files for go mod
+vendor
+
+bundle/*
+bundle.Dockerfile
+internal/*
+
+# Ignore generated files for kubebuilder
+bin
+config
+testbin
+tmp
+
+# Ignore generated files for kustomize
+kustomize
+
+cover.out
